@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EniwineModelStoreContainer" CdmEntityContainer="EniwineEntities">
+    <EntitySetMapping Name="Armas">
+      <EntityTypeMapping TypeName="EniwineModel.Arma">
+        <MappingFragment StoreEntitySet="Armas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Locais">
+      <EntityTypeMapping TypeName="EniwineModel.Locai">
+        <MappingFragment StoreEntitySet="Locais">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suspeitos">
+      <EntityTypeMapping TypeName="EniwineModel.Suspeito">
+        <MappingFragment StoreEntitySet="Suspeitos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
