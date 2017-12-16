@@ -4,8 +4,8 @@ Avaliação Hands-on - Descubra o assassino
 
 ## DESCRIÇÃO DO PROJETO ENIWINE
 Tecnologia utilizadas:
-⦁	Visual Studio Professional 2017;
-⦁	Sql Server Express 2017
+- Visual Studio Professional 2017;
+- Sql Server Express 2017
 
 ## DATABASE
 A modelagem escolhida para desenvolvimento do teste foi criar 3 tabelas simples SEM relação entre elas
